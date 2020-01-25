@@ -1,0 +1,9 @@
+dn: %SUFFIX%
+objectClass: dcObject
+objectClass: organization
+o: %ORGANISATION_NAME%
+
+dn: ou=people,%SUFFIX%
+ou: people
+description: All people in organisation
+objectclass: organizationalunit
